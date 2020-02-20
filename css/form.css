@@ -1,0 +1,76 @@
+*
+{
+	background-color: #e6f2ff;
+}
+header
+{
+	margin: 50px auto 0px;
+	width: 20%;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+	background-color: #404040;
+	color:white;
+}
+form
+{
+	margin: 0px auto 0px;
+	width: 20%;
+	border:1px solid #999999;
+	padding: 0px 20px 20px 20px;
+	font-size: 15px;
+	background-color: none;
+}
+form label
+{
+	padding-top: 20px;
+}
+form input
+{
+	border-radius: 5px;
+	border:1px solid #999999;
+	padding: 5px;
+	width: 100%;
+}
+form button
+{
+	margin-top: 30px;
+	border:1px solid #999999;
+	background-color: #404040;
+	border-radius: 5px;
+	width:30%;
+	padding: 5px;
+	color:white;
+}
+form button:hover
+{
+	background-color: white;
+	color:#404040;
+}
+#result
+{
+	margin:0px auto 0px;
+	width: 20%;
+	border-radius: 0px 0px 10px 10px;
+	padding: 10px;
+	font-size: 15px;
+	text-align: center;
+	background-color: #404040;
+	color:white;
+}
+@media screen and (max-width: 768px) 
+{
+	header,form,#result
+	{
+		width:40%;
+	}
+}
+@media screen and (max-width: 425px) 
+{
+	header,form,#result
+	{
+		width:80%;
+	}
+}
